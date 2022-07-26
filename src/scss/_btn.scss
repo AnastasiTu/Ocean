@@ -1,0 +1,27 @@
+@import "_variables";
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  margin: .5rem;
+  padding: .7rem 2.5rem;
+  border-radius: 5rem;
+  border: 0;
+  cursor: pointer;
+  font-family: $font-family-primary;
+  font-size: 2rem;
+  color: $main-color-primary;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color .1s linear;
+
+  &--red {
+    background-color: $color-btn-primary;
+
+    &:hover {
+      background-color: $color-btn-secondary;
+    }
+  }
+}

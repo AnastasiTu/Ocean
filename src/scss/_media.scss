@@ -1,0 +1,253 @@
+@media (max-width: $breakpoint-extra-large-devices) {
+  .intro {
+    &__list img {
+      margin: 0 -4rem -5rem;
+    }
+
+    &__text {
+      margin: 1rem 13.1rem 1rem 0;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-large-devices) {
+  .intro {
+    &__inner {
+      height: 34.2rem;
+    }
+
+    &__title {
+      margin: 1rem 0 auto;
+    }
+
+    &__subtitle {
+      margin: .5rem;
+    }
+
+    &__list img {
+      margin: 0 -4rem -4rem;
+    }
+
+    &__text {
+      margin: .5rem 18.7rem 1rem 0;
+    }
+  }
+}
+
+@media screen and (max-width: $breakpoint-medium-devices) {
+  html {
+    font-size: 1.5625vw;
+    // font-size: 5/(320/100); // где 320 это ширина моб версии макета
+    -webkit-text-size-adjust: none;
+  }
+
+  body {
+    -webkit-text-size-adjust: none;
+  }
+
+  .container {
+    padding: 0 4rem;
+    width: 100%;
+  }
+
+  .header {
+    &__logo {
+      margin: 3rem 1.5rem 3rem -3.5rem;
+    }
+  }
+
+  .intro {
+    &__inner {
+      height: 31.6rem;
+      margin: 0 8.6rem 0;
+    }
+
+    &__text {
+      font-size: 1.6rem;
+    }
+  }
+
+  .nav__link {
+    margin-left: 4rem;
+  }
+
+  .modal {
+    &__close {
+      img {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+
+    &__header {
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    &__inner {
+      width: 30rem;
+      padding: 2.5rem;
+    }
+
+    &__title {
+      margin-bottom: 2rem;
+      font-size: 2rem;
+
+      &--th {
+        font-family: $font-family-primary;
+        font-size: 4rem;
+        border-bottom: .3rem solid #fff;
+      }
+    }
+
+    &__text {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+
+    &__footer {
+      margin-top: .5rem;
+      padding-top: .5rem;
+      border-top: .2rem solid #E8E8E8;
+    }
+
+    &__footer-title {
+      font-size: 1.4rem;
+    }
+
+    &__contacts {
+      font-size: 1.2rem;
+    }
+  }
+
+  .form__group {
+    margin-bottom: .5rem;
+  }
+
+  .input {
+    height: 3.5rem;
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: $breakpoint-small-devices) {
+  .header {
+    &__inner {
+      margin: .6rem;
+    }
+
+    &__logo {
+      margin: 3rem 1.5em 3rem -.5rem;
+    }
+  }
+
+  .nav__link {
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 3.5rem;
+
+    &:nth-last-child(1) {
+      margin-right: 0rem;
+    }
+  }
+
+  .intro {
+    background: #31344e url(../img/bg.jpg) 10% center no-repeat;
+    background-size: cover;
+
+    &__inner {
+      width: 48.6rem;
+      height: 35.8rem;
+      margin: 0 4rem 30rem;
+    }
+
+    &__title {
+      font-size: 8.5rem;
+
+      & p {
+        font-size: 5.5rem;
+      }
+    }
+
+    &__subtitle {
+      font-size: 5.5rem;
+    }
+
+    &__text {
+      margin: .5rem 1rem 1rem .5rem;
+      font-size: 3rem;
+    }
+
+    &__love {
+      font-size: 5.5rem;
+      margin: 1rem 12.8rem;
+    }
+  }
+
+  .modal {
+    &__close {
+      img {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+
+    &__header {
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    &__inner {
+      width: 40rem;
+      height: 65rem;
+      padding: 4.5rem;
+    }
+
+    &__title {
+      margin-bottom: 2rem;
+      font-size: 2.6rem;
+
+      &--th {
+        font-family: $font-family-primary;
+        font-size: 4.2rem;
+        border-bottom: .3rem solid #fff;
+      }
+    }
+
+    &__text {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    &__footer {
+      margin-top: .5rem;
+      padding-top: .5rem;
+      border-top: .2rem solid #E8E8E8;
+    }
+
+    &__footer-title {
+      font-size: 1.7rem;
+    }
+
+    &__contacts {
+      font-size: 1.5rem;
+    }
+  }
+
+  .form__group {
+    margin-bottom: .5rem;
+  }
+
+  .input {
+    height: 6rem;
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    font-size: 2.1rem;
+  }
+}
